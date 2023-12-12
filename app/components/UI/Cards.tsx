@@ -2,9 +2,11 @@ import React from "react";
 
 const Cards = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div className="rounded-xl w-full h-[350px] flex flex-col items-center border-[0.5px] border-[#cccccc9a] py-5 px-2 hover:scale-110 transition duration-150 ease-in-out hover:bg-[#2c2a2a69]">
-      {children}
-    </div>
+    <main>
+      <div className="rounded-xl w-[90%] h-[280px] flex flex-col items-center border-[0.5px] border-orange-500 py-5 px-2 transition duration-150 ease-in-out hover:bg-[#2c2a2a69]">
+        {children}
+      </div>
+    </main>
   );
 };
 

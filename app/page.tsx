@@ -7,10 +7,11 @@ import { motion } from "framer-motion";
 
 import { Nunito } from "next/font/google";
 import Cards from "./components/UI/Cards";
-import Services from "./components/Services";
-import Clients from "./components/Clients";
-import ScrollToTop from "./components/ScrollToTop";
-import ContactForm from "./components/ContactForm";
+import Services from "./components/Sections/Services";
+import Clients from "./components/Sections/Clients";
+import ScrollToTop from "./components/UI/ScrollToTop";
+import ContactForm from "./components/UI/ContactForm";
+import ServiceCarousel from "./components/Slider/ServiceCarousel";
 
 const nunito = Nunito({ subsets: ["latin"] });
 
@@ -30,7 +31,7 @@ export default function Home() {
         <div className="grid grid-cols-4 items-center py-12">
           <div className="col-span-2 items-center w-full h-screen px-20 py-[75px]">
             <h1
-              className={`pt-24 font-bold text-6xl text-left text-[#0D9084]  ${nunito.className}`}
+              className={`pt-24 font-bold text-6xl text-left text-orange-500  ${nunito.className}`}
             >
               Elevating your brand in the digital era
             </h1>
@@ -41,14 +42,14 @@ export default function Home() {
               at the forefront of your industry.
             </p>
             <button
-              className={`bg-[#0D9084] text-black rounded-lg py-3 px-4 shadow flex items-center gap-4 mt-16 btn ${
+              className={`bg-orange-500 text-white rounded-lg py-3 px-4 shadow flex items-center gap-4 mt-16 btn ${
                 isHovered ? "hovered" : ""
               }`}
               onMouseEnter={handleMouseEnter}
               onMouseLeave={handleMouseLeave}
             >
               Start Project
-              <BsArrowRight className="arr text-black" size={25} />
+              <BsArrowRight className="arr text-orange-500" size={25} />
             </button>
           </div>
           <div className="col-span-2 -mt-40 px-20">

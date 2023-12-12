@@ -12,14 +12,14 @@ const Clients = () => {
           Whom we work with ?
         </p>
       </div>
-      <div className="flex items-center justify-between md:space-x-2 py-6 mt-8">
-        <div className="border border-[#003B36] rounded-xl hover:bg-[#353232] py-5">
+      <div className="flex justify-center items-center gap-x-16 md:space-x-2 py-6 mt-8">
+        <div className="border border-orange-500 rounded-xl hover:bg-[#353232] py-5 px-6 h-40">
           <img src="./images/RobustaLogo.png" alt="Robusta" />
         </div>
-        <div className="border border-[#003B36] rounded-xl hover:bg-[#353232] py-5 px-5">
+        <div className="border border-orange-500 rounded-xl hover:bg-[#353232] py-5 px-5">
           <img src="./images/sysnet.png" alt="Robusta" />
         </div>
-        <div className="border border-[#003B36] rounded-xl hover:bg-[#353232] py-5 px-5 h-40">
+        <div className="border border-orange-500 rounded-xl hover:bg-[#353232] py-5 px-5 h-40">
           <img src="./images/NASH.png" alt="Robusta" className="mt-10" />
         </div>
       </div>
@@ -35,7 +35,7 @@ const Clients = () => {
           </p>
         </div>
         <div className="flex items-center justify-between gap-10 mt-16">
-          <div className="w-1/3 h-[250px] bg-[#13072b9d] rounded-xl border border-transparent hover:bg-[#13072b3f] hover:border-[#003B36] cursor-pointer transition duration-400 ease-linear">
+          <div className="w-1/3 h-[250px] bg-[#19191a] rounded-xl border border-transparent hover:bg-[#13072b3f] hover:border-[#003B36] cursor-pointer transition duration-400 ease-linear">
             <div className="flex items-center px-12 py-4 mt-3">
               <img
                 src="./images/profile.png"
@@ -54,7 +54,7 @@ const Clients = () => {
               words which don't look .
             </p>
           </div>
-          <div className="w-1/3 h-[250px] bg-[#13072b9d] rounded-xl border border-transparent hover:bg-[#13072b3f] hover:border-[#003B36] cursor-pointer transition duration-400 ease-linear">
+          <div className="w-1/3 h-[250px] bg-[#19191a] rounded-xl border border-transparent hover:bg-[#13072b3f] hover:border-[#003B36] cursor-pointer transition duration-400 ease-linear">
             <div className="flex items-center px-12 py-4 mt-3">
               <img
                 src="./images/profile.png"
@@ -73,7 +73,7 @@ const Clients = () => {
               words which don't look .
             </p>
           </div>
-          <div className="w-1/3 h-[250px] bg-[#13072b9d] rounded-xl border border-transparent hover:bg-[#13072b3f] hover:border-[#003B36] cursor-pointer transition duration-400 ease-linear">
+          <div className="w-1/3 h-[250px] bg-[#19191a] rounded-xl border border-transparent hover:bg-[#13072b3f] hover:border-[#003B36] cursor-pointer transition duration-400 ease-linear">
             <div className="flex items-center px-12 py-4 mt-3">
               <img
                 src="./images/profile.png"

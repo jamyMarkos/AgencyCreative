@@ -108,7 +108,7 @@ const Footer = () => {
                 href="#"
                 className="hover:text-[#0D9084] transition duration-300 ease-linear ml-1"
               >
-                AgencyCreative
+                NOS Digital Solutions
               </Link>
             </span>
             <span className="cursor-pointer hover:text-[#0D9084] hover:underline transition duration-300 ease-linear">

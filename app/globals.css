@@ -26,17 +26,17 @@ body {
     rgb(var(--background-start-rgb));
 }
 .navLink.active {
-  @apply text-[#0D9084];
+  @apply text-orange-500;
 }
 
 .navLink {
-  @apply text-[#0d90857e] text-[18px];
+  @apply text-orange-500 text-base;
 }
 .navLink:hover {
-  @apply text-[#0D9084];
+  @apply text-orange-200;
 }
 nav .scroll {
-  @apply bg-[#0c2020ae] transition duration-300 ease-out shadow-md;
+  @apply bg-[#0c2020ae] transition duration-300 ease-in-out shadow-md;
 }
 
 .btn {
@@ -47,7 +47,7 @@ nav .scroll {
   @apply transform duration-300 ease-in-out text-[#0D9084];
 }
 .arr {
-  @apply transform duration-300 ease-in-out text-[#000000];
+  @apply transform duration-300 ease-in-out text-white;
 }
 
 /* .hovered {
@@ -82,4 +82,33 @@ nav .scroll {
   100% {
     transform: translateY(0);
   }
+}
+
+.react-multi-carousel-arrow {
+  background-color: #000;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.react-multi-carousel-arrow:hover {
+  background-color: #333;
+}
+
+.react-multi-carousel-arrow--left {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
+.react-multi-carousel-arrow--right {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+h1 {
+  @apply text-orange-500;
 }
